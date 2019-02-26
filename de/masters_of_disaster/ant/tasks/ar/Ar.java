@@ -10,6 +10,8 @@ import java.util.Vector;
 import org.apache.tools.ant.BuildException;
 import org.apache.tools.ant.DirectoryScanner;
 import org.apache.tools.ant.Project;
+
+
 import org.apache.tools.ant.taskdefs.MatchingTask;
 import org.apache.tools.ant.types.EnumeratedAttribute;
 import org.apache.tools.ant.types.FileSet;
@@ -46,7 +48,11 @@ public class Ar extends MatchingTask {
         return fileset;
     }
 
-
+public ArFileSet createArFileSet() {
+        ArFileSet fileset = new ArFileSet();
+        filesets.addElement(fileset);
+        return fileset;
+    }
     /**
      * Set the name/location of where to create the ar file.
      * @param destFile The output of the tar
@@ -69,11 +75,7 @@ public class Ar extends MatchingTask {
      * <p>
      * Allowable values are
      * <ul>
-     * <li>  truncate - names are truncated to the maximum length, spaces are replaced by '_'
-     * <li>  fail - names greater than the maximum cause a build exception
-     * <li>  warn - names greater than the maximum cause a warning and TRUNCATE is used
-     * <li>  bsd - BSD variant is used if any names are greater than the maximum.
-     * <li>  gnu - GNU variant is used if any names are greater than the maximum.
+    
      * <li>  omit - files with a name greater than the maximum are omitted from the archive
      * </ul>
      * @param mode the mode to handle long file names.
