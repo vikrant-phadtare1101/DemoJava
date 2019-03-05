@@ -83,6 +83,12 @@ public class Debug
 	 * Paints boxes around chunks.
 	 */
 	public static boolean CHUNK_PAINT_DEBUG = false;
+	public static boolean CHUNK_PAINT_DEBUG = false;
+	
+	
+	
+	
+	
 
 	/**
 	 * Show time taken to repaint text area painter.
@@ -111,11 +117,21 @@ public class Debug
 	 */
 	public static boolean ALTERNATIVE_DISPATCHER = OperatingSystem.isMacOS();
 
+	
 	/**
 	 * If true, A+ shortcuts are disabled. If you use this, you should also
 	 * remap the the modifiers so that A+ is actually something else.
 	 * <b>On by default on MacOS.</b>
 	 */
+	/**
+	 * If true, A+ shortcuts are disabled. If you use this, you should also
+	 * remap the the modifiers so that A+ is actually something else.
+	 * <b>On by default on MacOS.</b>
+	 */
+	
+	
+	
+	
 	public static boolean ALT_KEY_PRESSED_DISABLED = OperatingSystem.isMacOS();
 
 	/**
@@ -172,7 +188,7 @@ public class Debug
 				b = (a+1) * (c+1);
 				c = (a+1) * (b+1);
 			}
-			elapsed = System.currentTimeMillis() - start;
+			
 		}
 		return a + b + c;
 	}
