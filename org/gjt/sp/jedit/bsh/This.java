@@ -79,6 +79,8 @@ public class This implements java.io.Serializable, Runnable
     {
         try {
             Class c;
+            
+            
             if ( Capabilities.canGenerateInterfaces() )
                 c = Class.forName( "org.gjt.sp.jedit.bsh.XThis" );
             else if ( Capabilities.haveSwing() )
