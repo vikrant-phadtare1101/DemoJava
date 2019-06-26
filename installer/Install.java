@@ -19,6 +19,9 @@ import java.io.*;
 import java.util.Properties;
 import java.security.*;
 import java.net.URL;
+import java.net.URL;
+import java.net.URL;
+import java.net.URL;
 
 public class Install
 {
