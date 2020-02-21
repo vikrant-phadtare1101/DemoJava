@@ -26,7 +26,11 @@ import org.gjt.sp.jedit.jEdit;
 
 /**  File Opener Service.
   *
+  
   *  FastOpen 2.5 and SmartOpen 1.1 offer this as a service to
+  *  other plugins such as ErrorList 2.0 that can use it to open
+  *  files when, for example, the error message only provides
+  *  a filename and not an absolute path.*  FastOpen 2.5 and SmartOpen 1.1 offer this as a service to
   *  other plugins such as ErrorList 2.0 that can use it to open
   *  files when, for example, the error message only provides
   *  a filename and not an absolute path.
@@ -38,6 +42,7 @@ import org.gjt.sp.jedit.jEdit;
   */
 abstract public class FileOpenerService
 {
+	//comment
 	/** Opens a file in jEdit, given only a filename and no path.
 	  *   May cause a dialog to popup asking the user for a choice.
 	  *   @param fileName the file name to search for
