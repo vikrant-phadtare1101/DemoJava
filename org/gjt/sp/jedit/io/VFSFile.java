@@ -37,6 +37,8 @@ import org.gjt.sp.util.StandardUtilities;
 
 import javax.swing.*;
 //}}}
+// comment added 
+
 
 /**
  * A directory entry returned from a file listing.
