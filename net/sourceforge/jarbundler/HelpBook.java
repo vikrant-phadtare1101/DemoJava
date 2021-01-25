@@ -66,6 +66,8 @@ public class HelpBook extends MatchingTask {
 
 	public List getFileSets() {
 		return fileSets;
+		
+		//code should be clean
 	}
 
 }
