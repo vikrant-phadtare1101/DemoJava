@@ -84,6 +84,9 @@ public class Token implements java.io.Serializable {
      switch(ofKind)
      {
        default : return new Token();
+		     
+		     
+		     
      }
   }
 
