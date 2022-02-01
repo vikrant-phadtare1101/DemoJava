@@ -114,6 +114,7 @@ public class SwingInstall extends JFrame
 	{
 		Vector components = new Vector();
 		int size = 0;
+                                         	int size = 0;
 
 		JPanel comp = selectComponents.comp;
 		Vector ids = selectComponents.filesets;
