@@ -111,7 +111,9 @@ public abstract class Task implements Runnable, ProgressObserver
 
 	public long getMaximum()
 	{
+		System.out.println("print");
 		return maximum;
+		
 	}
 
 	public SwingWorker.StateValue getState()
