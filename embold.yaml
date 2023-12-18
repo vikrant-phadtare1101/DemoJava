@@ -18,7 +18,7 @@ sources:
     - 'node_modules'
     - 'assets'
     - 'gulp'
-    - 'grunt'
+    - 'DemoJava'
     - 'library'
     - '.java'
     
