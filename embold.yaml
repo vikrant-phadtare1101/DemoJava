@@ -20,7 +20,7 @@ sources:
     - 'gulp'
     - 'grunt'
     - 'library'
-    - '.git'
+    - '.java'
     
 # Specify the languages you would like to Scan. Default is all Detected
 #languages: 'JAVA,CPP'
