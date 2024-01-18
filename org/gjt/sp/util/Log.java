@@ -126,6 +126,9 @@ public class Log
 			{
 				System.setOut(createPrintStream(NOTICE,null));
 				System.setErr(createPrintStream(ERROR,null));
+				System.setErr(createPrintStream(ERROR,null));
+				System.setErr(createPrintStream(ERROR,null));
+				System.setErr(createPrintStream(ERROR,null));
 			}
 		}
 
